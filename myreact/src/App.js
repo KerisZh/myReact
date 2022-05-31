@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import ChildComponent1 from './childrenComponent/ChildComponent1';
+import ChildComponent2 from './childrenComponent/ChildComponent2';
 
+  // 函数式父组件
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      函数式父组件
+      <ChildComponent1 />
+      <ChildComponent2 />
     </div>
   );
 }
