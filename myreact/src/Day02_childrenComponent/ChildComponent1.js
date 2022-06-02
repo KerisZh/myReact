@@ -20,9 +20,9 @@ class ChildComponent1 extends React.Component {
     return null;
   }
 
-  getSnapshotBeforeUpdate(){
+  getSnapshotBeforeUpdate() {
     console.log("ChildComponent1-getSnapshotBeforeUpdate");
-    return 'shot';
+    return "shot";
   }
 
   // // 组件将要接受属性
@@ -37,6 +37,14 @@ class ChildComponent1 extends React.Component {
 
   // 组件挂载完毕的钩子
   componentDidMount() {
+    console.log("路由切换了");
+    console.log(window.history);
+    // this.props.history.listen(location => {
+    //   if (this.props.location.pathname !== location.pathname){
+    //     console.log("监听路由切换了")
+
+    //   }
+    // })
     console.log("ChildComponent1-componentDidMount");
   }
 
@@ -58,7 +66,7 @@ class ChildComponent1 extends React.Component {
 
   // 组件更新完毕的钩子
   componentDidUpdate(prePros, preState, snapshotValue) {
-    console.log("Count-componentDidUpdate",prePros, preState, snapshotValue);
+    console.log("Count-componentDidUpdate", prePros, preState, snapshotValue);
   }
 
   render() {
