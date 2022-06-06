@@ -23,6 +23,14 @@
 
 }
 
+.App .Day05{
+  width: 300px;
+  height: 200px;
+  border: solid;
+  margin: auto;
+
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

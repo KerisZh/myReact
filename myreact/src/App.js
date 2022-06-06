@@ -6,12 +6,25 @@ import ChildComponent2 from "./Day02_childrenComponent/ChildComponent2";
 import Father from "./Day03_父子组件传值/子传父";
 import Parent from "./Day03_父子组件传值/父传子";
 import routes from "./routes";
+import Count from "./Day05_react-redux/containers/Count";
+import store from "./Day05_react-redux/redux/store";
 
 // 函数式父组件
 function App() {
   const element = useRoutes(routes);
   return (
     <div className="App">
+      <div className="Day05">
+        Day05
+        <br />
+        <div>
+          <h2>React-redux</h2>
+          <div>
+            <Count store={store} />
+          </div>
+        </div>
+      </div>
+      <hr />
       <div className="Day04">
         Day04
         <br />
