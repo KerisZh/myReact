@@ -31,6 +31,13 @@
 
 }
 
+.App .Day06{
+  width: 300px;
+  border: solid;
+  margin: auto;
+
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

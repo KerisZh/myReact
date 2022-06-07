@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
+import store from "./Day05_react-redux/redux/store";
+import store06 from "./Day06_Hook组件使用redux/redux/store";
+import { Provider } from "react-redux";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -10,7 +13,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App />
+      <Provider store={store06}>
+        <App />
+      </Provider>
     </BrowserRouter>
   </React.StrictMode>
 );
