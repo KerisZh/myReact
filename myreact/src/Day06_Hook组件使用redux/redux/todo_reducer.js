@@ -28,6 +28,7 @@ let initState = {
 
 function todoReducer(state = initState, action) {
   let nextState = null;
+  console.log("...", state);
   switch (action.type) {
     case TOGGLE_COMPLETE:
       nextState = {
@@ -59,7 +60,10 @@ function todoReducer(state = initState, action) {
     case DELETE_TODO:
       nextState = {
         ...state,
-        todos: state.todos.splice(action.payload, 1),
+        todos: [[], ...state.todos.splice(action.payload.id, 1)],
+        // todos: [...state.todos.splice(action.payload.id, 1)],
+        // todos: [...state.todos.filter(item => item.id !== action.payload.id)]
+        // todos: state.todos.filter((item)=>(item.id!==action.payload.id))
       };
     default:
       nextState = state;

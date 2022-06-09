@@ -7,7 +7,7 @@ import { connect } from "react-redux";
 
 function mapStateToProps(state){
     return {
-         count: state //UI组件中需要什么参数，对象中就写哪些参数
+         count: state.count //UI组件中需要什么参数，对象中就写哪些参数
      }
 }
 

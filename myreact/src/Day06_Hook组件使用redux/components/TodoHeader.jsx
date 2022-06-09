@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { ADD_TODO } from "../redux/todo_action";
 
 function TodoHeader(props) {
-  const state = useSelector((state) => ({ todos: state.todos }));
+  const state = useSelector((state) => ({ todos: state.todo.todos }));
   const newTodoInput = useRef(null);
   const dispatch = useDispatch();
 

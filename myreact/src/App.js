@@ -35,7 +35,7 @@ function App() {
         <br />
         <div>
           <h2>React-redux</h2>
-          <div>{/* <Count /> */}</div>
+          <div><Count /></div>
         </div>
       </div>
       <hr />

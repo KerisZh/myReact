@@ -37,7 +37,6 @@ class ChildComponent1 extends React.Component {
 
   // 组件挂载完毕的钩子
   componentDidMount() {
-    console.log("路由切换了");
     console.log(window.history);
     // this.props.history.listen(location => {
     //   if (this.props.location.pathname !== location.pathname){

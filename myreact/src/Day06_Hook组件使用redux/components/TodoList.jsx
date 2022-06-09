@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { DELETE_TODO, TOGGLE_COMPLETE } from "../redux/todo_action";
 
 function TodoList(props) {
-  let state = useSelector((state) => state);
+  let state = useSelector((state) => state.todo);
   let dispatch = useDispatch();
 
   function itemChange(e) {
@@ -16,13 +16,14 @@ function TodoList(props) {
     });
   }
 
-  function deleteItem(deleteIndex){
-      console.log(deleteIndex)
-      dispatch({
-          type: DELETE_TODO,
-          payload: deleteIndex
-          
-      })
+  function deleteItem(deleteIndex) {
+    console.log(deleteIndex);
+    dispatch({
+      type: DELETE_TODO,
+      payload: {
+        id: deleteIndex
+      },
+    });
   }
 
   function renderList(todos, display) {
