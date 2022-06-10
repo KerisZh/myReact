@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.less";
 import React from "react";
 import { Link, useRoutes } from "react-router-dom";
 import ChildComponent1 from "./Day02_childrenComponent/ChildComponent1";
@@ -11,12 +11,24 @@ import store from "./Day05_react-redux/redux/store";
 import TodoHeader from "./Day06_Hook组件使用redux/components/TodoHeader";
 import TodoList from "./Day06_Hook组件使用redux/components/TodoList";
 import TodoFooter from "./Day06_Hook组件使用redux/components/TodoFooter";
+import AntdComponent from "./Day08_antd/antdComponent";
 
 // 函数式父组件
 function App() {
   const element = useRoutes(routes);
   return (
     <div className="App">
+      <div className="Day08">
+        Day08
+        <br />
+        <div>
+          <h2>ant design</h2>
+          <div>
+            <AntdComponent />
+          </div>
+        </div>
+      </div>
+      <hr />
       <div className="Day06">
         Day06
         <br />
