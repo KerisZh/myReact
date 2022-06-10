@@ -60,11 +60,12 @@ function todoReducer(state = initState, action) {
     case DELETE_TODO:
       nextState = {
         ...state,
-        todos: [[], ...state.todos.splice(action.payload.id, 1)],
-        // todos: [...state.todos.splice(action.payload.id, 1)],
-        // todos: [...state.todos.filter(item => item.id !== action.payload.id)]
-        // todos: state.todos.filter((item)=>(item.id!==action.payload.id))
+        todos: [
+          ...state.todos.slice(0, action.payload),
+          ...state.todos.slice(action.payload + 1),
+        ],
       };
+      break;
     default:
       nextState = state;
       break;

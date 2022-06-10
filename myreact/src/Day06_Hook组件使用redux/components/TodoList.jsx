@@ -20,9 +20,8 @@ function TodoList(props) {
     console.log(deleteIndex);
     dispatch({
       type: DELETE_TODO,
-      payload: {
-        id: deleteIndex
-      },
+      payload: deleteIndex
+      
     });
   }
 
