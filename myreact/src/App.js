@@ -12,12 +12,24 @@ import TodoHeader from "./Day06_Hook组件使用redux/components/TodoHeader";
 import TodoList from "./Day06_Hook组件使用redux/components/TodoList";
 import TodoFooter from "./Day06_Hook组件使用redux/components/TodoFooter";
 import AntdComponent from "./Day08_antd/antdComponent";
+import AntdUse from "./Day09_antd组件的使用/components";
 
 // 函数式父组件
 function App() {
   const element = useRoutes(routes);
   return (
     <div className="App">
+      <div className="Day09">
+        Day09
+        <br />
+        <div>
+          <h2>antd组件</h2>
+          <div>
+            <AntdUse />
+          </div>
+        </div>
+      </div>
+      <hr />
       <div className="Day08">
         Day08
         <br />
