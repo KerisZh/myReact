@@ -3,6 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 
 const ChildComponent2 = React.memo((props) => {
   const [count, setCount] = useState(0);
+  console.log("321321", props);
 
   // 模拟DidMount
   useEffect(() => {
@@ -40,12 +41,13 @@ const ChildComponent2 = React.memo((props) => {
       <button onClick={() => setCount(count + 1)}>加1</button>
       <div>
         <Link to="1_1">二级组件_1</Link>
-        <br />
+        &nbsp;&nbsp;&nbsp;
         <Link to="1_2">二级组件_2</Link>
       </div>
       <div>
         <Outlet />
       </div>
+      {/* <div>收到的params: {this.props.match.params}</div> */}
     </div>
   );
 });

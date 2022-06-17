@@ -3,6 +3,7 @@ import ChildComponent2 from "../Day02_childrenComponent/ChildComponent2";
 import { Navigate } from "react-router-dom";
 import One from "../Day04_二级路由/1_1";
 import Two from "../Day04_二级路由/1_2";
+import Detail from "../Day04_二级路由/Detail";
 
 const routes = [
   {
@@ -13,7 +14,17 @@ const routes = [
     path: "/ChildComponent2",
     element: <ChildComponent2 />,
     children: [
-      { path: "1_1", element: <One /> },
+      {
+        path: "1_1",
+        element: <One />,
+        children: [
+          {
+            // path: "detail/:id/:title/:content",
+            path: "detail",
+            element: <Detail />,
+          },
+        ],
+      },
       { path: "1_2", element: <Two /> },
     ],
   },

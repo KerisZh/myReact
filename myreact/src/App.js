@@ -89,8 +89,8 @@ function App() {
       Day02
       <br />
       函数式父组件
-      <ChildComponent1 count={10} />
-      <ChildComponent2 count={20} />
+      <ChildComponent1 />
+      <ChildComponent2 />
     </div>
   );
 }

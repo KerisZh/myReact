@@ -1,0 +1,85 @@
+Date : 2022-06-15 11:11:46
+Directory : c:\Users\Administrator\Desktop\test\myReact\myreact
+Total : 36 files,  29750 codes, 102 comments, 181 blanks, all 30033 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| JSON             |          3 |     28,722 |          0 |          3 |     28,725 |
+| JavaScript       |         21 |        520 |         41 |         84 |        645 |
+| JavaScript React |          7 |        396 |          3 |         42 |        441 |
+| Less             |          1 |         41 |         35 |         16 |         92 |
+| Markdown         |          1 |         38 |          0 |         33 |         71 |
+| HTML             |          1 |         20 |         23 |          1 |         44 |
+| CSS              |          1 |         12 |          0 |          2 |         14 |
+| XML              |          1 |          1 |          0 |          0 |          1 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                  | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                     |         36 |     29,750 |        102 |        181 |     30,033 |
+| public                                                                                                |          2 |         45 |         23 |          2 |         70 |
+| src                                                                                                   |         30 |        954 |         77 |        142 |      1,173 |
+| src\Day02_childrenComponent                                                                           |          2 |         99 |         31 |         24 |        154 |
+| src\Day03_父子组件传值                                                                                      |          2 |        100 |          0 |         14 |        114 |
+| src\Day03_自定义钩子                                                                                       |          1 |         24 |          0 |          7 |         31 |
+| src\Day04_二级路由                                                                                        |          2 |         14 |          0 |          6 |         20 |
+| src\Day05_react-redux                                                                                 |          6 |         71 |          2 |         15 |         88 |
+| src\Day05_react-redux\components                                                                      |          1 |         27 |          2 |          5 |         34 |
+| src\Day05_react-redux\components\Count                                                                |          1 |         27 |          2 |          5 |         34 |
+| src\Day05_react-redux\containers                                                                      |          1 |         22 |          0 |          4 |         26 |
+| src\Day05_react-redux\containers\Count                                                                |          1 |         22 |          0 |          4 |         26 |
+| src\Day05_react-redux\redux                                                                           |          4 |         22 |          0 |          6 |         28 |
+| src\Day06_Hook组件使用redux                                                                               |          6 |        221 |          0 |         29 |        250 |
+| src\Day06_Hook组件使用redux\components                                                                    |          3 |        135 |          0 |         19 |        154 |
+| src\Day06_Hook组件使用redux\redux                                                                         |          3 |         86 |          0 |         10 |         96 |
+| src\Day08_antd                                                                                        |          1 |         22 |          1 |          3 |         26 |
+| src\Day09_antd组件的使用                                                                                   |          1 |        190 |          0 |         11 |        201 |
+| src\routes                                                                                            |          1 |         24 |          0 |          3 |         27 |
++-------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                              | language         | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\Administrator\Desktop\test\myReact\myreact\README.md                                         | Markdown         |         38 |          0 |         33 |         71 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\craco.config.js                                   | JavaScript       |         16 |          2 |          2 |         20 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\package-lock.json                                 | JSON             |     28,647 |          0 |          1 |     28,648 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\package.json                                      | JSON             |         50 |          0 |          1 |         51 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\public\index.html                                 | HTML             |         20 |         23 |          1 |         44 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\public\manifest.json                              | JSON             |         25 |          0 |          1 |         26 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\App.js                                        | JavaScript       |         95 |          1 |          3 |         99 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\App.less                                      | Less             |         41 |         35 |         16 |         92 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\App.test.js                                   | JavaScript       |          7 |          0 |          2 |          9 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day02_childrenComponent\ChildComponent1.js    | JavaScript       |         54 |         22 |         15 |         91 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day02_childrenComponent\ChildComponent2.js    | JavaScript       |         45 |          9 |          9 |         63 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day03_父子组件传值\子传父.js                           | JavaScript       |         61 |          0 |          9 |         70 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day03_父子组件传值\父传子.js                           | JavaScript       |         39 |          0 |          5 |         44 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day03_自定义钩子\useTimeout.js                     | JavaScript       |         24 |          0 |          7 |         31 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day04_二级路由\1_1.js                             | JavaScript       |          7 |          0 |          3 |         10 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day04_二级路由\1_2.js                             | JavaScript       |          7 |          0 |          3 |         10 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day05_react-redux\components\Count\index.jsx  | JavaScript React |         27 |          2 |          5 |         34 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day05_react-redux\containers\Count\index.jsx  | JavaScript React |         22 |          0 |          4 |         26 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day05_react-redux\redux\constant.js           | JavaScript       |          2 |          0 |          0 |          2 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day05_react-redux\redux\count_action.js       | JavaScript       |          3 |          0 |          2 |          5 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day05_react-redux\redux\count_reducer.js      | JavaScript       |         13 |          0 |          2 |         15 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day05_react-redux\redux\store.js              | JavaScript       |          4 |          0 |          2 |          6 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day06_Hook组件使用redux\components\TodoFooter.jsx | JavaScript React |         26 |          0 |          5 |         31 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day06_Hook组件使用redux\components\TodoHeader.jsx | JavaScript React |         34 |          0 |          6 |         40 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day06_Hook组件使用redux\components\TodoList.jsx   | JavaScript React |         75 |          0 |          8 |         83 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day06_Hook组件使用redux\redux\store.js            | JavaScript       |          9 |          0 |          3 |         12 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day06_Hook组件使用redux\redux\todo_action.js      | JavaScript       |          4 |          0 |          3 |          7 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day06_Hook组件使用redux\redux\todo_reducer.js     | JavaScript       |         73 |          0 |          4 |         77 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day08_antd\antdComponent.jsx                  | JavaScript React |         22 |          1 |          3 |         26 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\Day09_antd组件的使用\components.jsx                | JavaScript React |        190 |          0 |         11 |        201 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\index.css                                     | CSS              |         12 |          0 |          2 |         14 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\index.js                                      | JavaScript       |         20 |          3 |          4 |         27 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\logo.svg                                      | XML              |          1 |          0 |          0 |          1 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\reportWebVitals.js                            | JavaScript       |         12 |          0 |          2 |         14 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\routes\index.js                               | JavaScript       |         24 |          0 |          3 |         27 |
+| c:\Users\Administrator\Desktop\test\myReact\myreact\src\setupTests.js                                 | JavaScript       |          1 |          4 |          1 |          6 |
+| Total                                                                                                 |                  |     29,750 |        102 |        181 |     30,033 |
++-------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
